@@ -3,7 +3,9 @@ package placements
 class Student {
 
   String name
-  String studentID
+  String coursecode
+  String notes
+  String applications
 
     static constraints = {
     }

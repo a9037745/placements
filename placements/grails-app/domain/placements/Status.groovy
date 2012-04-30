@@ -1,6 +1,9 @@
 package placements
 
-class PlacementStatus {
+class Status {
+
+  String code
+  String description
 
     static constraints = {
     }
