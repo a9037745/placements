@@ -7,6 +7,5 @@ class Student {
   String notes
   String applications
 
-    static constraints = {
+    static hasMany = [student: Application]
     }
-}
